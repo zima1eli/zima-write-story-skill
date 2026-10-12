@@ -1,0 +1,13 @@
+* text=auto
+.gitattributes text eol=lf
+LICENSE text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.toml text eol=lf
+*.mdc text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+
+# Preserve recorded hashes, including CRLF and historical trailing blank lines.
+# Still flag real trailing spaces and spaces before indentation tabs.
+verification/** -text whitespace=blank-at-eol,space-before-tab,cr-at-eol,-blank-at-eof
