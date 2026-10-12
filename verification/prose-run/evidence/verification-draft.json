@@ -1,0 +1,223 @@
+{
+  "checked_at": "2026-10-12T11:42:02.2277818+08:00",
+  "book_id": "rain-before-stop",
+  "total_planning_scope": [
+    "001",
+    "002"
+  ],
+  "batch": "B01",
+  "execution_scope": [
+    "001"
+  ],
+  "expected_status": "draft",
+  "check_count": 40,
+  "failed_count": 0,
+  "checks": [
+    {
+      "name": "文件存在: README.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "文件存在: 00-CURRENT.md",
+      "passed": true,
+      "detail": "00-CURRENT.md"
+    },
+    {
+      "name": "文件存在: book-config.md",
+      "passed": true,
+      "detail": "book-config.md"
+    },
+    {
+      "name": "文件存在: planning.md",
+      "passed": true,
+      "detail": "planning.md"
+    },
+    {
+      "name": "文件存在: state.md",
+      "passed": true,
+      "detail": "state.md"
+    },
+    {
+      "name": "文件存在: PROJECT_PROGRESS.md",
+      "passed": true,
+      "detail": "PROJECT_PROGRESS.md"
+    },
+    {
+      "name": "文件存在: sources/outline.md",
+      "passed": true,
+      "detail": "sources/outline.md"
+    },
+    {
+      "name": "文件存在: packages/input-B01-v1.md",
+      "passed": true,
+      "detail": "packages/input-B01-v1.md"
+    },
+    {
+      "name": "文件存在: packages/execution-B01-v1.md",
+      "passed": true,
+      "detail": "packages/execution-B01-v1.md"
+    },
+    {
+      "name": "文件存在: reviews/planning-review-v1.md",
+      "passed": true,
+      "detail": "reviews/planning-review-v1.md"
+    },
+    {
+      "name": "文件存在: reviews/handoff-acceptance-v1.md",
+      "passed": true,
+      "detail": "reviews/handoff-acceptance-v1.md"
+    },
+    {
+      "name": "文件存在: evidence/source-manifest.json",
+      "passed": true,
+      "detail": "evidence/source-manifest.json"
+    },
+    {
+      "name": "原大纲逐字节副本",
+      "passed": true,
+      "detail": "5EA2458F3AF54D4A12A3BB1297105B11154A7F3E83B61A36020551F43CAD01D7"
+    },
+    {
+      "name": "input版本字段: rain-before-stop",
+      "passed": true,
+      "detail": "rain-before-stop"
+    },
+    {
+      "name": "input版本字段: outline-v1",
+      "passed": true,
+      "detail": "outline-v1"
+    },
+    {
+      "name": "input版本字段: planning-v1",
+      "passed": true,
+      "detail": "planning-v1"
+    },
+    {
+      "name": "input版本字段: initial-v1",
+      "passed": true,
+      "detail": "initial-v1"
+    },
+    {
+      "name": "input版本字段: style-v1",
+      "passed": true,
+      "detail": "style-v1"
+    },
+    {
+      "name": "input版本字段: 生成者",
+      "passed": true,
+      "detail": "生成者"
+    },
+    {
+      "name": "input版本字段: 验收者与证据",
+      "passed": true,
+      "detail": "验收者与证据"
+    },
+    {
+      "name": "input仅首章范围",
+      "passed": true,
+      "detail": "B01=001，总目标=001—002"
+    },
+    {
+      "name": "input生命周期状态",
+      "passed": true,
+      "detail": "draft"
+    },
+    {
+      "name": "execution版本字段: rain-before-stop",
+      "passed": true,
+      "detail": "rain-before-stop"
+    },
+    {
+      "name": "execution版本字段: outline-v1",
+      "passed": true,
+      "detail": "outline-v1"
+    },
+    {
+      "name": "execution版本字段: planning-v1",
+      "passed": true,
+      "detail": "planning-v1"
+    },
+    {
+      "name": "execution版本字段: initial-v1",
+      "passed": true,
+      "detail": "initial-v1"
+    },
+    {
+      "name": "execution版本字段: style-v1",
+      "passed": true,
+      "detail": "style-v1"
+    },
+    {
+      "name": "execution版本字段: 生成者",
+      "passed": true,
+      "detail": "生成者"
+    },
+    {
+      "name": "execution版本字段: 验收者与证据",
+      "passed": true,
+      "detail": "验收者与证据"
+    },
+    {
+      "name": "execution仅首章范围",
+      "passed": true,
+      "detail": "B01=001，总目标=001—002"
+    },
+    {
+      "name": "execution生命周期状态",
+      "passed": true,
+      "detail": "draft"
+    },
+    {
+      "name": "执行包引用对应输入版本",
+      "passed": true,
+      "detail": "input-B01-v1"
+    },
+    {
+      "name": "当前入口指向唯一包且状态一致",
+      "passed": true,
+      "detail": "draft"
+    },
+    {
+      "name": "进度保留两章总范围与首章批次",
+      "passed": true,
+      "detail": "范围记录"
+    },
+    {
+      "name": "active执行包数量",
+      "passed": true,
+      "detail": "actual=0, expected=0"
+    },
+    {
+      "name": "两章施工图段落均可定位",
+      "passed": true,
+      "detail": "仅结构定位；语义深度由规划审查承担"
+    },
+    {
+      "name": "逐章材料与技法段落",
+      "passed": true,
+      "detail": "两章各有材料与技法段落；不据数量判断内容质量"
+    },
+    {
+      "name": "初始状态明示无接受正文",
+      "passed": true,
+      "detail": "未把未来终态写成实绩"
+    },
+    {
+      "name": "B02未提前生成",
+      "passed": true,
+      "detail": "续批需首章接受与实绩入账"
+    },
+    {
+      "name": "项目Markdown链接可定位",
+      "passed": true,
+      "detail": ""
+    }
+  ],
+  "semantic_evidence": "reviews/planning-review-v1.md",
+  "limitations": [
+    "机械校验不证明小说正文质量",
+    "没有正文实写或独立下游验收",
+    "语义审查由本轮执行代理完成"
+  ]
+}

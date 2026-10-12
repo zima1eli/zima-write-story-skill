@@ -1,0 +1,340 @@
+{
+  "generated_at": "2026-10-12T11:53:19.5532021+08:00",
+  "root": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\verification\\prose-run",
+  "scope": "两章小样持久化、版本与生命周期；不替代语义审查",
+  "checks": 64,
+  "failed": 0,
+  "semantic_evidence": [
+    "reviews/B01-cycle.md",
+    "reviews/B02-cycle.md",
+    "reviews/final-closeout.md"
+  ],
+  "limitations": [
+    "同一代理local四阶段",
+    "最初提前读到润色段，不证明上下文隔离",
+    "本轮无正文错误修复分支",
+    "旧verification.json是首包历史证据"
+  ],
+  "results": [
+    {
+      "name": "初始快照保留：00-CURRENT.md",
+      "passed": true,
+      "detail": "history/initial-handoff/00-CURRENT.md"
+    },
+    {
+      "name": "初始快照保留：book-config.md",
+      "passed": true,
+      "detail": "history/initial-handoff/book-config.md"
+    },
+    {
+      "name": "初始快照保留：planning.md",
+      "passed": true,
+      "detail": "history/initial-handoff/planning.md"
+    },
+    {
+      "name": "初始快照保留：PROJECT_PROGRESS.md",
+      "passed": true,
+      "detail": "history/initial-handoff/PROJECT_PROGRESS.md"
+    },
+    {
+      "name": "初始快照保留：README.md",
+      "passed": true,
+      "detail": "history/initial-handoff/README.md"
+    },
+    {
+      "name": "初始快照保留：state.md",
+      "passed": true,
+      "detail": "history/initial-handoff/state.md"
+    },
+    {
+      "name": "初始快照保留：verify-project.ps1",
+      "passed": true,
+      "detail": "history/initial-handoff/verify-project.ps1"
+    },
+    {
+      "name": "初始快照保留：evidence\\source-manifest.json",
+      "passed": true,
+      "detail": "history/initial-handoff/evidence\\source-manifest.json"
+    },
+    {
+      "name": "初始快照保留：evidence\\verification-draft-initial.json",
+      "passed": true,
+      "detail": "history/initial-handoff/evidence\\verification-draft-initial.json"
+    },
+    {
+      "name": "初始快照保留：evidence\\verification-draft.json",
+      "passed": true,
+      "detail": "history/initial-handoff/evidence\\verification-draft.json"
+    },
+    {
+      "name": "初始快照保留：evidence\\verification.json",
+      "passed": true,
+      "detail": "history/initial-handoff/evidence\\verification.json"
+    },
+    {
+      "name": "初始快照保留：packages\\execution-B01-v1.md",
+      "passed": true,
+      "detail": "history/initial-handoff/packages\\execution-B01-v1.md"
+    },
+    {
+      "name": "初始快照保留：packages\\input-B01-v1.md",
+      "passed": true,
+      "detail": "history/initial-handoff/packages\\input-B01-v1.md"
+    },
+    {
+      "name": "初始快照保留：reviews\\handoff-acceptance-v1.md",
+      "passed": true,
+      "detail": "history/initial-handoff/reviews\\handoff-acceptance-v1.md"
+    },
+    {
+      "name": "初始快照保留：reviews\\planning-review-v1.md",
+      "passed": true,
+      "detail": "history/initial-handoff/reviews\\planning-review-v1.md"
+    },
+    {
+      "name": "初始快照保留：sources\\outline.md",
+      "passed": true,
+      "detail": "history/initial-handoff/sources\\outline.md"
+    },
+    {
+      "name": "原证据未覆盖：sources/outline.md",
+      "passed": true,
+      "detail": "与接手快照SHA256比较"
+    },
+    {
+      "name": "原证据未覆盖：book-config.md",
+      "passed": true,
+      "detail": "与接手快照SHA256比较"
+    },
+    {
+      "name": "原证据未覆盖：planning.md",
+      "passed": true,
+      "detail": "与接手快照SHA256比较"
+    },
+    {
+      "name": "原证据未覆盖：state.md",
+      "passed": true,
+      "detail": "与接手快照SHA256比较"
+    },
+    {
+      "name": "原证据未覆盖：reviews/planning-review-v1.md",
+      "passed": true,
+      "detail": "与接手快照SHA256比较"
+    },
+    {
+      "name": "原证据未覆盖：reviews/handoff-acceptance-v1.md",
+      "passed": true,
+      "detail": "与接手快照SHA256比较"
+    },
+    {
+      "name": "原证据未覆盖：verify-project.ps1",
+      "passed": true,
+      "detail": "与接手快照SHA256比较"
+    },
+    {
+      "name": "原证据未覆盖：evidence/verification.json",
+      "passed": true,
+      "detail": "与接手快照SHA256比较"
+    },
+    {
+      "name": "001 初稿阶段哈希",
+      "passed": true,
+      "detail": "prose/001-draft-v1.md"
+    },
+    {
+      "name": "001 润色阶段哈希",
+      "passed": true,
+      "detail": "prose/001-polished-v2.md"
+    },
+    {
+      "name": "001 checker对应终稿",
+      "passed": true,
+      "detail": "prose/001-final-v2.md"
+    },
+    {
+      "name": "001 主审接受对应终稿",
+      "passed": true,
+      "detail": "prose/001-final-v2.md"
+    },
+    {
+      "name": "001 初稿和润色稿确有版本差异",
+      "passed": true,
+      "detail": "保留各自正文，不用相同文件伪造改稿"
+    },
+    {
+      "name": "002 初稿阶段哈希",
+      "passed": true,
+      "detail": "prose/002-draft-v1.md"
+    },
+    {
+      "name": "002 润色阶段哈希",
+      "passed": true,
+      "detail": "prose/002-polished-v2.md"
+    },
+    {
+      "name": "002 checker对应终稿",
+      "passed": true,
+      "detail": "prose/002-final-v2.md"
+    },
+    {
+      "name": "002 主审接受对应终稿",
+      "passed": true,
+      "detail": "prose/002-final-v2.md"
+    },
+    {
+      "name": "002 初稿和润色稿确有版本差异",
+      "passed": true,
+      "detail": "保留各自正文，不用相同文件伪造改稿"
+    },
+    {
+      "name": "当前active执行包为0",
+      "passed": true,
+      "detail": "范围结束，不生成空包"
+    },
+    {
+      "name": "input-B01 已消费",
+      "passed": true,
+      "detail": "packages/input-B01-v1.md"
+    },
+    {
+      "name": "execution-B01 已消费",
+      "passed": true,
+      "detail": "packages/execution-B01-v1.md"
+    },
+    {
+      "name": "input-B02 已消费",
+      "passed": true,
+      "detail": "packages/input-B02-v1.md"
+    },
+    {
+      "name": "execution-B02 已消费",
+      "passed": true,
+      "detail": "packages/execution-B02-v1.md"
+    },
+    {
+      "name": "无B03或003正文文件",
+      "passed": true,
+      "detail": "只检查文件，不用禁词扫描判断剧情"
+    },
+    {
+      "name": "真实运行记录阶段顺序",
+      "passed": true,
+      "detail": "记录与阶段哈希互相辅助，不能证明上下文隔离"
+    },
+    {
+      "name": "B02开写前唯一active证据",
+      "passed": true,
+      "detail": "S08保存于S09之前"
+    },
+    {
+      "name": "当前总进度逐章接受与最终基线一致",
+      "passed": true,
+      "detail": "001和002已接受；accepted-v2"
+    },
+    {
+      "name": "反例：旧0章进度不得通过终态门",
+      "passed": true,
+      "detail": "使用保留的真实初始进度，不修改当前项目"
+    },
+    {
+      "name": "当前入口与最终事实及结束状态一致",
+      "passed": true,
+      "detail": "不以阶段日志代替当前入口"
+    },
+    {
+      "name": "当前证据可读：reviews/B01-cycle.md",
+      "passed": true,
+      "detail": "存在非空不代表语义通过；见报告正文"
+    },
+    {
+      "name": "当前证据可读：reviews/B02-cycle.md",
+      "passed": true,
+      "detail": "存在非空不代表语义通过；见报告正文"
+    },
+    {
+      "name": "当前证据可读：reviews/B02-handoff.md",
+      "passed": true,
+      "detail": "存在非空不代表语义通过；见报告正文"
+    },
+    {
+      "name": "当前证据可读：reviews/final-closeout.md",
+      "passed": true,
+      "detail": "存在非空不代表语义通过；见报告正文"
+    },
+    {
+      "name": "当前证据可读：state/accepted-v1.md",
+      "passed": true,
+      "detail": "存在非空不代表语义通过；见报告正文"
+    },
+    {
+      "name": "当前证据可读：state/accepted-v2.md",
+      "passed": true,
+      "detail": "存在非空不代表语义通过；见报告正文"
+    },
+    {
+      "name": "当前证据可读：planning-v2.md",
+      "passed": true,
+      "detail": "存在非空不代表语义通过；见报告正文"
+    },
+    {
+      "name": "当前入口链接：00-CURRENT.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "当前入口链接：prose/001-final-v2.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "当前入口链接：prose/002-final-v2.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "当前入口链接：reviews/final-closeout.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "当前入口链接：RUN_LOG.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "当前入口链接：state/accepted-v2.md",
+      "passed": true,
+      "detail": "README.md"
+    },
+    {
+      "name": "当前入口链接：prose/001-final-v2.md",
+      "passed": true,
+      "detail": "00-CURRENT.md"
+    },
+    {
+      "name": "当前入口链接：prose/002-final-v2.md",
+      "passed": true,
+      "detail": "00-CURRENT.md"
+    },
+    {
+      "name": "当前入口链接：reviews/final-closeout.md",
+      "passed": true,
+      "detail": "00-CURRENT.md"
+    },
+    {
+      "name": "当前入口链接：reviews/B01-cycle.md",
+      "passed": true,
+      "detail": "00-CURRENT.md"
+    },
+    {
+      "name": "当前入口链接：reviews/B02-cycle.md",
+      "passed": true,
+      "detail": "00-CURRENT.md"
+    },
+    {
+      "name": "当前入口链接：RUN_LOG.md",
+      "passed": true,
+      "detail": "00-CURRENT.md"
+    }
+  ]
+}

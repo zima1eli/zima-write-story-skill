@@ -1,0 +1,225 @@
+{
+  "backup_tag": "backup/source-skills-before-20261012",
+  "files": 31,
+  "exact_bytes": 31,
+  "content_equal": 31,
+  "details": [
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/CHANGELOG.md",
+      "original_sha256": "4935d838f7b8298732d311b6a0f63d738e45ec9ad425b1eca5983a37b0c487c1",
+      "backup_blob_sha256": "4935d838f7b8298732d311b6a0f63d738e45ec9ad425b1eca5983a37b0c487c1",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/evals/evals.json",
+      "original_sha256": "f1b72adc106a29d08f750c6d2c16dd1b1fae536d3ffada302ae50266387f9820",
+      "backup_blob_sha256": "f1b72adc106a29d08f750c6d2c16dd1b1fae536d3ffada302ae50266387f9820",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/references/handoff-contract.md",
+      "original_sha256": "3c4ad7deb60beeff17393d23e7036b29bd976898c89a0aa30f93a3e6fbc5e8fa",
+      "backup_blob_sha256": "3c4ad7deb60beeff17393d23e7036b29bd976898c89a0aa30f93a3e6fbc5e8fa",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/references/planning-harness.md",
+      "original_sha256": "e6907844ff9cdbc49f178c4347bd80acac4492728aecfa482c8c8c622f588bc9",
+      "backup_blob_sha256": "e6907844ff9cdbc49f178c4347bd80acac4492728aecfa482c8c8c622f588bc9",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/references/quality-gates.md",
+      "original_sha256": "a75ab262b6c22935780e32e206175d567eb954885ed1bd5e59af3c4407ff29c3",
+      "backup_blob_sha256": "a75ab262b6c22935780e32e206175d567eb954885ed1bd5e59af3c4407ff29c3",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/references/review-and-progress.md",
+      "original_sha256": "86e61ce55096b2bfc7681b51cf8606bb7ce12b7dbc5219e49780a9b3fdc81ffb",
+      "backup_blob_sha256": "86e61ce55096b2bfc7681b51cf8606bb7ce12b7dbc5219e49780a9b3fdc81ffb",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/references/three-terminal-setup.md",
+      "original_sha256": "10109ca1b6c2a54e9a7ea153920d82af9e0e9a486cbcd9674612508910100fe7",
+      "backup_blob_sha256": "10109ca1b6c2a54e9a7ea153920d82af9e0e9a486cbcd9674612508910100fe7",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/references/wiki-methodology-routing.md",
+      "original_sha256": "9ba262a4804edf6bbb058a47e100319304c896b5d34d89379d8117f01cc45c3a",
+      "backup_blob_sha256": "9ba262a4804edf6bbb058a47e100319304c896b5d34d89379d8117f01cc45c3a",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/references/workflow.md",
+      "original_sha256": "40dc6a548fd1d2fe73d16115b7e81ddb4376b2b8c598421795745a5ed53ddf41",
+      "backup_blob_sha256": "40dc6a548fd1d2fe73d16115b7e81ddb4376b2b8c598421795745a5ed53ddf41",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/scripts/install-three-terminal-skills.ps1",
+      "original_sha256": "9cb988f2add4807e9aa041f5de3d11d682d6ff60c83b268d7d33a2cd4787bfbf",
+      "backup_blob_sha256": "9cb988f2add4807e9aa041f5de3d11d682d6ff60c83b268d7d33a2cd4787bfbf",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-scroll-rod-and-chapter-outline/SKILL.md",
+      "original_sha256": "97af51fe8886d931205a4ac90f7af4eb209f2d0c897bd94426727d4e2d44d94a",
+      "backup_blob_sha256": "97af51fe8886d931205a4ac90f7af4eb209f2d0c897bd94426727d4e2d44d94a",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/CHANGELOG.md",
+      "original_sha256": "3a8beb5697c640fd4c8278431c0a459a915994a97f4fc96390c323fabd9e649b",
+      "backup_blob_sha256": "3a8beb5697c640fd4c8278431c0a459a915994a97f4fc96390c323fabd9e649b",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/evals/evals.json",
+      "original_sha256": "79c86b55a4a37468273e72747486ff1be31ffe1bf901e3b577cccce6ec03119d",
+      "backup_blob_sha256": "79c86b55a4a37468273e72747486ff1be31ffe1bf901e3b577cccce6ec03119d",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/references/agent-contracts.md",
+      "original_sha256": "c6dabf2dcbe9d224e99cfd56c699af2c318c5283510c3a7aacfe23394025524a",
+      "backup_blob_sha256": "c6dabf2dcbe9d224e99cfd56c699af2c318c5283510c3a7aacfe23394025524a",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/references/context-and-drift-protocol.md",
+      "original_sha256": "2c8654a2ffd964c602d6458f4228adde7e658782ec776c715c45f788b6661a09",
+      "backup_blob_sha256": "2c8654a2ffd964c602d6458f4228adde7e658782ec776c715c45f788b6661a09",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/references/execution-modes-and-feedback.md",
+      "original_sha256": "2c7770eb7366bb200f17ed5e2fc70aa8bb5f15c010652d1a1d7372005d71c5fd",
+      "backup_blob_sha256": "2c7770eb7366bb200f17ed5e2fc70aa8bb5f15c010652d1a1d7372005d71c5fd",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/references/handoff-contract.md",
+      "original_sha256": "fff7c3ce1bc108b5a73b1a6b80d9c883b40d32eca474fe696542f86912dcd54f",
+      "backup_blob_sha256": "fff7c3ce1bc108b5a73b1a6b80d9c883b40d32eca474fe696542f86912dcd54f",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/references/quality-gates.md",
+      "original_sha256": "d655d6d748821d402c813e3c00613f577716961bd6ff1a691ad28cbb60dbf1d0",
+      "backup_blob_sha256": "d655d6d748821d402c813e3c00613f577716961bd6ff1a691ad28cbb60dbf1d0",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/references/three-terminal-setup.md",
+      "original_sha256": "1af264a715e03cf50d7853591a82c006eed2f96251c5751c9a77397aa1e13a6b",
+      "backup_blob_sha256": "1af264a715e03cf50d7853591a82c006eed2f96251c5751c9a77397aa1e13a6b",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/references/wiki-routing.md",
+      "original_sha256": "dbe1effed034bb037b6a71b8f2d430951847f3ace8ea4c5d087664f188960e85",
+      "backup_blob_sha256": "dbe1effed034bb037b6a71b8f2d430951847f3ace8ea4c5d087664f188960e85",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/references/workflow.md",
+      "original_sha256": "c0df1bdd83a2b1dfaad29c5180a94748c608899a9a733ad7ae6ddbd104962827",
+      "backup_blob_sha256": "c0df1bdd83a2b1dfaad29c5180a94748c608899a9a733ad7ae6ddbd104962827",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/SKILL.md",
+      "original_sha256": "b0f70f35d800e9d3ad037bb75ed128298899b6ece797c06fbdfb57dd0dcfc5b9",
+      "backup_blob_sha256": "b0f70f35d800e9d3ad037bb75ed128298899b6ece797c06fbdfb57dd0dcfc5b9",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/claude/agents/content-writer.md",
+      "original_sha256": "61de0358d1b277b63cba0a36e46d095cd6352003b2cd2b09e0f8fc6335a7f5fb",
+      "backup_blob_sha256": "61de0358d1b277b63cba0a36e46d095cd6352003b2cd2b09e0f8fc6335a7f5fb",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/claude/agents/outline-checker.md",
+      "original_sha256": "6e245bb767a7d536ecf377c6af4caa0f15a903f125991d0cebba16cf0b410dea",
+      "backup_blob_sha256": "6e245bb767a7d536ecf377c6af4caa0f15a903f125991d0cebba16cf0b410dea",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/claude/agents/polisher.md",
+      "original_sha256": "5936d5ff596aa24f95088c366dcaff549e47346389b23bb4501fb2dba5eab515",
+      "backup_blob_sha256": "5936d5ff596aa24f95088c366dcaff549e47346389b23bb4501fb2dba5eab515",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/codex/agents/content-writer.toml",
+      "original_sha256": "0cd62f6c787f03af0ccc09ad3e6d5a224345ebdf1b0a34804de4179ec1e5807e",
+      "backup_blob_sha256": "0cd62f6c787f03af0ccc09ad3e6d5a224345ebdf1b0a34804de4179ec1e5807e",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/codex/agents/outline-checker.toml",
+      "original_sha256": "a83290614c99550b2083c065fb0528613af371e9b32d3e6051f64a065302c43c",
+      "backup_blob_sha256": "a83290614c99550b2083c065fb0528613af371e9b32d3e6051f64a065302c43c",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/codex/agents/polisher.toml",
+      "original_sha256": "158c49d7e87456393a7f41b0f630d60fdcfd422099b3a88cbc74c6975382fa78",
+      "backup_blob_sha256": "158c49d7e87456393a7f41b0f630d60fdcfd422099b3a88cbc74c6975382fa78",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/cursor/rules/zima-content-writer.mdc",
+      "original_sha256": "1bae13dd329df9ca4ea2b491c9b0a41ad6535b7dcf056e70d219117e40ec4350",
+      "backup_blob_sha256": "1bae13dd329df9ca4ea2b491c9b0a41ad6535b7dcf056e70d219117e40ec4350",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/cursor/rules/zima-outline-checker.mdc",
+      "original_sha256": "85a0f206984e87f51371fd63bceced554e1f37380c6994cf700a2fd7bb943dc9",
+      "backup_blob_sha256": "85a0f206984e87f51371fd63bceced554e1f37380c6994cf700a2fd7bb943dc9",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    },
+    {
+      "path": "zima-write-web story/templates/cursor/rules/zima-polisher.mdc",
+      "original_sha256": "2dcc5299efedfb3236ae09cac229dbad70ffd18458e3c738ef3444244d8fb381",
+      "backup_blob_sha256": "2dcc5299efedfb3236ae09cac229dbad70ffd18458e3c738ef3444244d8fb381",
+      "exact_bytes": true,
+      "equal_after_line_ending_normalization": true
+    }
+  ]
+}

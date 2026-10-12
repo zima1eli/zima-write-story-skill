@@ -1,0 +1,78 @@
+{
+  "captured_at": "2026-10-12T11:41:28.1787485+08:00",
+  "note": "本轮实际读取来源的当前落盘校验值；源技能在运行中完成小修后已复读受影响规则。wiki实际可达；未读取raw或下游技能。",
+  "sources": [
+    {
+      "role": "user_outline",
+      "path": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\zima-scroll-rod-and-chapter-outline\\evals\\fixtures\\outline.md",
+      "sha256": "5EA2458F3AF54D4A12A3BB1297105B11154A7F3E83B61A36020551F43CAD01D7",
+      "bytes": 1383
+    },
+    {
+      "role": "upstream_skill",
+      "path": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\zima-scroll-rod-and-chapter-outline\\SKILL.md",
+      "sha256": "982E1FBD4585651D7B38C899D301A7334A3969066D2927F670E3D1AE1D323B7B",
+      "bytes": 4282
+    },
+    {
+      "role": "upstream_reference",
+      "path": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\zima-scroll-rod-and-chapter-outline\\references\\project-initialization.md",
+      "sha256": "9E819C88B456E9E7A7735296BCCF1680C5B08082EE3D7EA9A67EB3FF0D1EB811",
+      "bytes": 8219
+    },
+    {
+      "role": "upstream_reference",
+      "path": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\zima-scroll-rod-and-chapter-outline\\references\\planning-harness.md",
+      "sha256": "F729E1B620D3FA6F74CD4DD1BE4C75574ECC2C7AE36A9841318D4A954364F5E7",
+      "bytes": 4788
+    },
+    {
+      "role": "upstream_reference",
+      "path": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\zima-scroll-rod-and-chapter-outline\\references\\handoff-contract.md",
+      "sha256": "50C19BA87A88A8DEA5BD1474C1410D25DE4CC3AF49006D94FA0485E4BE330108",
+      "bytes": 4054
+    },
+    {
+      "role": "upstream_reference",
+      "path": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\zima-scroll-rod-and-chapter-outline\\references\\workflow.md",
+      "sha256": "298E3DC52E72F9A819C232E08DB47CCC1742510C2D8AF3A1C7B128894020392E",
+      "bytes": 5603
+    },
+    {
+      "role": "upstream_reference",
+      "path": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\zima-scroll-rod-and-chapter-outline\\references\\wiki-methodology-routing.md",
+      "sha256": "9BA262A4804EDF6BBB058A47E100319304C896B5D34D89379D8117F01CC45C3A",
+      "bytes": 4550
+    },
+    {
+      "role": "upstream_reference",
+      "path": "C:\\Users\\ai\\Desktop\\write-web-story\\repository\\zima-scroll-rod-and-chapter-outline\\references\\quality-gates.md",
+      "sha256": "FA4F44B6E04082F91330D283188C28694A0C7F8C7D239B596FEC00A17863D727",
+      "bytes": 3733
+    },
+    {
+      "role": "wiki_methodology",
+      "path": "D:\\knowledge base\\zima-fiction\\wiki\\话题\\方法论\\写作技法\\章纲写法.md",
+      "sha256": "63E2B064AFFCB86E4638F80A92FE5F3EDF90A0069FF565FDBAF70FAEC28A72B5",
+      "bytes": 5958
+    },
+    {
+      "role": "wiki_methodology",
+      "path": "D:\\knowledge base\\zima-fiction\\wiki\\话题\\方法论\\写作技法\\故事逻辑一致性检验法.md",
+      "sha256": "3038428FFC1D74F58C588EE2561CBF72A7B52A3896D554CCC651CD6126B9DB21",
+      "bytes": 3153
+    },
+    {
+      "role": "wiki_methodology",
+      "path": "D:\\knowledge base\\zima-fiction\\wiki\\话题\\方法论\\结构技法\\小说节奏.md",
+      "sha256": "0A401FCC28C1D99DE0C6AAB8381704770893D6D5A9CBA34870FCD036A2885A14",
+      "bytes": 5435
+    },
+    {
+      "role": "wiki_methodology",
+      "path": "D:\\knowledge base\\zima-fiction\\wiki\\话题\\方法论\\结构技法\\准确的钩子.md",
+      "sha256": "BB080EB90800D75DE94453B13BA8A003F774704B900403E2551029813F482E6A",
+      "bytes": 4778
+    }
+  ]
+}

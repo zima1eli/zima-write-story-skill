@@ -1,10 +1,6 @@
 # 三端通用安装说明
 
-本 skill 的源目录是：
-
-```text
-C:\Users\ai\Desktop\write-web-story\zima-scroll-rod-and-chapter-outline
-```
+本 skill 的源目录是包含当前 `SKILL.md`、`references/` 和安装脚本的目录。以实际检出位置为准，不把某本小说的项目资料放进源目录。
 
 同一份内容应同步到 Codex、Claude Code、Cursor 三端。不要只改其中一个副本。
 
@@ -29,14 +25,14 @@ evals/
 scripts/
 ```
 
-`references/` 必须包含 `planning-harness.md`；三端同步时不能只复制 `SKILL.md`，否则既有正文接管、反馈分级、卷级接口卡和当前执行包规则会丢失。
+`references/` 必须包含 `project-initialization.md`、`planning-harness.md` 和 `handoff-contract.md`；三端同步时不能只复制 `SKILL.md`，否则初始化、版本与交接规则会丢失。安装不要求另造一本书专属的 skill；本书资料放在项目已有文档中。
 
 ## 手工复制
 
 PowerShell 示例：
 
 ```powershell
-$src = "C:\Users\ai\Desktop\write-web-story\zima-scroll-rod-and-chapter-outline"
+$src = (Get-Location).Path  # 在本 skill 源目录运行
 $project = "D:\your\novel-project"
 
 Copy-Item -Recurse -Force $src (Join-Path $project ".agents\skills\zima-scroll-rod-and-chapter-outline")
@@ -77,4 +73,4 @@ Get-FileHash "$project\.cursor\skills\$name\SKILL.md"
 
 三端 hash 应一致。若不一致，以源目录为准重新复制。
 
-同步后还应抽查 `references/planning-harness.md` 与 `references/handoff-contract.md` 的 hash，而不只检查入口文件。
+同步后还应检查 `references/project-initialization.md`、`references/planning-harness.md` 与 `references/handoff-contract.md` 的 hash，而不只检查入口文件。
