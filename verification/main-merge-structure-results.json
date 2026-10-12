@@ -1,0 +1,15 @@
+{
+  "status": "pass",
+  "counts": {
+    "skills": 2,
+    "evals": 42,
+    "fixtures": 3,
+    "templates": 9,
+    "matching_role_bodies": 3,
+    "local_references": 65,
+    "utf8_files": 40
+  },
+  "errors": [],
+  "scope": "Source packaging only. Behavioral cases and actual client loading require separate evidence.",
+  "validator_self_tests": 8
+}

@@ -1,0 +1,10 @@
+{
+  "status": "pass",
+  "checked_at_utc": "2026-10-12T06:05:37.214363+00:00",
+  "repository": "zima1eli/zima-write-story-skill",
+  "html_url": "https://github.com/zima1eli/zima-write-story-skill",
+  "default_branch": "main",
+  "before_description": null,
+  "description": "可复用的中文小说源 Skills：根据每本书的大纲生成配套材料与执行包，衔接正文写作、human-writing 小说润色、审查和实绩回写；提供 Codex、Claude Code、Cursor 三端角色模板。",
+  "scope": "Only repository description was patched; other settings were left unchanged."
+}

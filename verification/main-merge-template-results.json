@@ -1,0 +1,55 @@
+{
+  "status": "pass",
+  "files": 6,
+  "parser": "PyYAML safe_load",
+  "results": [
+    {
+      "path": "zima-write-web story/templates/claude/agents/content-writer.md",
+      "frontmatter": {
+        "name": "content-writer",
+        "description": "按已验收执行包写章节初稿，默认使用小说表达原则并报告候选变化。"
+      },
+      "status": "pass"
+    },
+    {
+      "path": "zima-write-web story/templates/claude/agents/outline-checker.md",
+      "frontmatter": {
+        "name": "outline-checker",
+        "description": "审查最终正文版本的执行包覆盖、事实与连续性，报告偏移候选。"
+      },
+      "status": "pass"
+    },
+    {
+      "path": "zima-write-web story/templates/claude/agents/polisher.md",
+      "frontmatter": {
+        "name": "polisher",
+        "description": "在初稿存在后按本书风格润色，保护事实、人物声音和场景功能。"
+      },
+      "status": "pass"
+    },
+    {
+      "path": "zima-write-web story/templates/cursor/rules/zima-content-writer.mdc",
+      "frontmatter": {
+        "description": "按已验收执行包写章节初稿，默认使用小说表达原则并报告候选变化。",
+        "alwaysApply": false
+      },
+      "status": "pass"
+    },
+    {
+      "path": "zima-write-web story/templates/cursor/rules/zima-outline-checker.mdc",
+      "frontmatter": {
+        "description": "审查最终正文版本的执行包覆盖、事实与连续性，报告偏移候选。",
+        "alwaysApply": false
+      },
+      "status": "pass"
+    },
+    {
+      "path": "zima-write-web story/templates/cursor/rules/zima-polisher.mdc",
+      "frontmatter": {
+        "description": "在初稿存在后按本书风格润色，保护事实、人物声音和场景功能。",
+        "alwaysApply": false
+      },
+      "status": "pass"
+    }
+  ]
+}
