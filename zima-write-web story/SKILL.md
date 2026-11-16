@@ -26,7 +26,7 @@ description: Use when 用户要按小说卷纲/章纲批量写正文、继续写
 
 `初稿 → 润色 → checker 审查 → 修复与复审 → 主 agent 终审及必要跨卷审查 → 已接受实绩入账 → 更新后续规划 → 下一包验收、激活`
 
-- writer 默认先读 [小说表达模块](references/human-writing-fiction.md) 的适用规则与正向初稿部分；polisher 在初稿完成后读其适用规则与润色部分。风格服从本书配置，主 agent 验收表达改动与内容保护；checker 保持事实审查职责。
+- writer 默认先读 [表达阶段主用 skill 分工](references/expression-skills.md) 与 [human-writing-fiction.md](references/human-writing-fiction.md) 的适用规则与正向初稿部分，主用 `human-writing`；polisher 在初稿完成后主用 `humanizer-zh`，辅以 [humanizer-zh-fiction.md](references/humanizer-zh-fiction.md) 的小说边界。风格服从本书配置，主 agent 验收表达改动与内容保护；checker 保持事实审查职责。
 - 章纲授权内可设计动作、对白和细节，不擅改关键因果、人物动机、事件次序或世界规则。润色保护必要情节容量与有意重复，不用句式或标点禁令机械改文；终章按规划收束，不强造下一章钩子。
 - 草稿新增变化只是候选，主 agent 终审接受后才进入正式事实基线。正文版本变动使相关旧报告失效；规划或已接受事实变化使依赖执行包失效，重验后才能激活。
 - 正文批次的四阶段职责与可见证据必须保留，可以由主 agent 本地顺序执行，不强制四个独立 agent。逐章保存阶段、正文版本、报告版本、未结事项和下一动作。
@@ -43,7 +43,7 @@ description: Use when 用户要按小说卷纲/章纲批量写正文、继续写
 | 正文批次的顺序和落盘 | [workflow.md](references/workflow.md) |
 | writer / polisher / checker / 主审职责 | [agent-contracts.md](references/agent-contracts.md) |
 | 验收与结束判断 | [quality-gates.md](references/quality-gates.md) |
-| 初稿表达与后置润色 | [human-writing-fiction.md](references/human-writing-fiction.md) |
+| 初稿表达与后置润色 | [expression-skills.md](references/expression-skills.md)、[human-writing-fiction.md](references/human-writing-fiction.md)、[humanizer-zh-fiction.md](references/humanizer-zh-fiction.md) |
 | 缺技法、新类型或同类问题复发 | [wiki-routing.md](references/wiki-routing.md) |
 | 三端 agent/rule 与契约路径 | [three-terminal-setup.md](references/three-terminal-setup.md) |
 

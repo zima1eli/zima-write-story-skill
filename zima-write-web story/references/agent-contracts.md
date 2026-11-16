@@ -15,7 +15,7 @@
 - 项目规则、本书配置、当前入口、active 执行包。
 - 前 1–2 章相关正文，以及人物、术语、关键道具和伏笔相关事实行。
 - 本批已有技法、风格/POV 与红线。
-- [human-writing-fiction.md](human-writing-fiction.md) 的适用规则和“写前与初稿：正向生成”；不提前用润色清单压制初稿生成。
+- [expression-skills.md](expression-skills.md) 的分工与解析顺序；主用 `human-writing` 的虚构写作规则（外部不可用时用 [human-writing-fiction.md](human-writing-fiction.md)），并读本地 [human-writing-fiction.md](human-writing-fiction.md) 的"适用与优先级"和"写前与初稿：正向生成"；不提前用润色清单压制初稿生成。
 
 执行：
 
@@ -33,7 +33,7 @@
 
 职责：初稿存在后改善表达，保护原有有效内容。
 
-读取：本书风格/POV、当前入口与包、待润色正文及版本、writer 报告、适用状态与红线，以及 [human-writing-fiction.md](human-writing-fiction.md) 的适用规则和“初稿后润色：保留有效部分再修改”。
+读取：本书风格/POV、当前入口与包、待润色正文及版本、writer 报告、适用状态与红线；主用 `humanizer-zh`（外部不可用时用 [humanizer-zh-fiction.md](humanizer-zh-fiction.md)），并读 [expression-skills.md](expression-skills.md) 的分工、解析顺序和使用规则，以及 [human-writing-fiction.md](human-writing-fiction.md) 的"初稿后润色：保留有效部分再修改"补充边界。
 
 执行：
 

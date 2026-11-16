@@ -12,7 +12,9 @@ Codex、Claude Code、Cursor 共用本源 skill 的 [agent-contracts.md](agent-c
 - `current_entry_path`：本项目当前入口实际路径。
 - `execution_package_path`：当前入口指向的执行包实际路径。
 
-模板中的 `references/...` 按 `skill_root` 解析，不按项目工作目录猜测。同名 skill 有多个安装副本时固定本次实际使用的一个根目录。writer/polisher 的小说表达模块从同一根目录读取；检查其文件存在与可读，不能只有口头声明“已使用”。
+模板中的 `references/...` 按 `skill_root` 解析，不按项目工作目录猜测。同名 skill 有多个安装副本时固定本次实际使用的一个根目录。writer/polisher 的表达参考从同一根目录读取；检查其文件存在与可读，不能只有口头声明"已使用"。
+
+writer 主用 `human-writing`、polisher 主用 `humanizer-zh`，这两个是外部安装项，按 [expression-skills.md](expression-skills.md) 的解析顺序定位实际路径并记录版本。三端运行时若能加载同名 skill，直接加载；否则使用本 skill 内的 [human-writing-fiction.md](human-writing-fiction.md) 与 [humanizer-zh-fiction.md](humanizer-zh-fiction.md) 兜底，并在阶段报告中注明"使用兜底，未加载外部 skill"。
 
 若运行时不能读取源安装目录，可把所需通用契约与表达模块复制到项目可读的约定位置，记录源版本与实际路径并一同同步；不得留下指向不存在文件的引用。材料缺失按交接契约处理，不把本书尚未生成的表单当作源 skill 打包故障。
 
@@ -48,7 +50,7 @@ templates/cursor/rules/zima-outline-checker.mdc -> 项目/.cursor/rules/zima-out
 
 ## 同步与运行验证
 
-修改职责先改本契约，再同步九份模板；writer 默认读取小说表达模块的正向初稿段，polisher 在初稿存在后读取润色段，checker 保留事实审查职责，主 agent 验收内容保护。
+修改职责先改本契约，再同步九份模板；writer 默认主用 `human-writing` 读正向初稿段，polisher 在初稿存在后主用 `humanizer-zh` 读润色段，checker 保留事实审查职责，主 agent 验收内容保护。
 
 三端均须遵守：唯一 active 包验收、草稿候选与已接受实绩分离、正文变更后相关报告失效、修复复审及必要跨卷审查在入账前完成、后续规划更新在下一包激活前完成、逐章恢复不重写通过章节。普通 checker 使用执行包硬点对应；缺项才定向回读，用户全书审查优先。
 

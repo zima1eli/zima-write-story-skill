@@ -15,7 +15,7 @@
 
 - **从大纲准备开写条件**：根据本书题材、大纲深度和创作要求，生成本书配置、人物与世界状态、卷章规划及当前所需材料；记录已定事实、可设计部分和待定项。
 - **把规划交给正文执行**：生成有范围、版本和验收依据的首批或续批执行包，衔接正文初稿、润色、检查、修复复审及主审。
-- **改善小说表达**：在初稿和润色中使用内置 human-writing 小说适配，减少机械解说和套路表达，同时保护人物声音、事件因果、视角、伏笔及有意重复。
+- **改善小说表达**：在初稿和润色中分用各自擅长的表达 skill——初稿主用 `human-writing` 的虚构写作部分，润色主用 `humanizer-zh` 的编辑规则，减少机械解说和套路表达，同时保护人物声音、事件因果、视角、伏笔及有意重复。两个 skill 不可用时用本仓库内的适配兜底文件。
 - **持续更新与恢复**：将审查接受的正文实绩回写，再更新后续规划和执行包；处理旧包失效、逐章断点恢复、范围完成与全书收尾。
 - **复用和维护创作流程**：同一套源技能用于不同小说，提供 Codex、Claude Code、Cursor 三端角色模板，以及固定输入、评测定义和可复核的验证记录。
 
@@ -33,7 +33,7 @@
 
 ## 小说表达
 
-正文初稿与润色默认使用内置 [human-writing 小说适配](<zima-write-web story/references/human-writing-fiction.md>)，无需额外安装。基于卡兹克的 [human-writing](https://github.com/KKKKhazix/human-writing) 1.1.0 固定版本改编，保留[来源与适配差异](<zima-write-web story/third-party/human-writing/SOURCE.md>)及 [MIT 许可](<zima-write-web story/third-party/human-writing/LICENSE>)。
+正文初稿与润色分用两个外部 skill：`human-writing` 负责初稿的正向生成，`humanizer-zh` 负责润色的定点修改。两者是外部安装项，按 [表达阶段主用 skill 分工](<zima-write-web story/references/expression-skills.md>) 的解析顺序定位实际路径；不可用时用本仓库的 [human-writing-fiction.md](<zima-write-web story/references/human-writing-fiction.md>) 与 [humanizer-zh-fiction.md](<zima-write-web story/references/humanizer-zh-fiction.md>) 兜底，并在阶段报告注明。`humanizer-zh` 源自 [op7418/Humanizer-zh](https://github.com/op7418/Humanizer-zh)（MIT），来源与许可见 [third-party/humanizer-zh](<zima-write-web story/third-party/humanizer-zh/SOURCE.md>)；`human-writing` 基于卡兹克的 [human-writing](https://github.com/KKKKhazix/human-writing) 1.1.0 固定版本改编，保留[来源与适配差异](<zima-write-web story/third-party/human-writing/SOURCE.md>)及 [MIT 许可](<zima-write-web story/third-party/human-writing/LICENSE>)。
 
 初稿重人物目标、对白意图、视角和场景变化；润色减少重复解说，同时保护人物声音、关键因果、有意重复、必要慢场景与伏笔。破折号、纠正句式等按小说语境判断，不设机械禁词或删字比例。本书约束优先，表达优化不能擅改关键事件与知情顺序。
 
@@ -44,7 +44,7 @@
 - 原版行为观察：[baseline-observations.md](verification/baseline-observations.md)。
 - 本轮改动、已执行检查和验证边界：[验证报告](verification/REPORT.md)。
 - 工作分支已合并到 `main`；合并后的文件、备份及仓库描述核对见[合并验证报告](verification/main-merge-report.md)。
-- 两套评测文件共 42 个案例定义；定义数量不等于已执行数量。固定小型小说输入放在各自 `evals/fixtures/`。
+- 两套评测文件共 45 个案例定义；定义数量不等于已执行数量。固定小型小说输入放在各自 `evals/fixtures/`。2026-11-16 的表达分工与通用边界定向核验见[同步验证记录](verification/2026-11-16-skill-sync.md)。
 - 源文件检查：Python 3.11+ 运行 `python -X utf8 scripts/verify_repository.py --self-test`。该检查验证格式、相对资源、fixture 和模板清单，不验证文学效果或客户端实际加载。
 
 三端使用说明保留在各 skill 的 `references/three-terminal-setup.md`。本次未安装到真实小说项目或全局客户端；原有安装脚本未纳入本轮修复，不以模板可解析声称三端部署已验证。

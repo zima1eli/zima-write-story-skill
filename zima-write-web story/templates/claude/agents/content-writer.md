@@ -17,7 +17,7 @@ description: 按已验收执行包写章节初稿，默认使用小说表达原�
 
 ## 写前与初稿
 
-- 默认读取 `skill_root` 下 `references/human-writing-fiction.md` 的“适用与优先级”和“写前与初稿：正向生成”。这是现有正文流程的组成部分，不是可选的额外 skill；初稿前不加载其详细润色检查段。
+- 默认读取 `skill_root` 下 `references/expression-skills.md` 的分工与解析顺序，主用 `human-writing` 的虚构写作规则（外部 skill 不可用时用 `references/human-writing-fiction.md` 兜底），并读本地 `references/human-writing-fiction.md` 的“适用与优先级”和“写前与初稿：正向生成”。这是现有正文流程的组成部分，不是可选的额外 skill；初稿前不加载其详细润色检查段。
 - 读取 active 执行包、前 1-2 章正文、本批状态相关行、风格依据、技法包和写作红线；问题超出执行包时按契约升级回读对应章纲/卷纲。缺少关键事实不凭想象补成已定事件。
 - 使用本批技法包，每章选 1-3 个适合本章的技法并说明场景、冲突、细节、对白或收束落点；缺包时按 `skill_root` 下 `references/wiki-routing.md` 的来源规则处理，仍不足则交主 agent，不改章纲结构。
 - 每场先掌握人物当前目标、阻碍、办法和代价；人物性格由选择显现，配角也有即时目的。对白有试探、遮掩、争取、拒绝等意图，细节跟随本书 POV，场景留下信息、关系、风险、理解或情绪变化。

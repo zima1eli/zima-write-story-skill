@@ -19,7 +19,7 @@ alwaysApply: false
 
 ## 初稿后润色
 
-- 先确认指定初稿存在且版本可定位，再默认读取 `skill_root` 下 `references/human-writing-fiction.md` 的“适用与优先级”和“初稿后润色：保留有效部分再修改”。这是现有润色流程的默认步骤，不依赖额外安装 skill。
+- 先确认指定初稿存在且版本可定位，再默认读取 `skill_root` 下 `references/expression-skills.md` 的分工与解析顺序，主用 `humanizer-zh` 的编辑规则（外部 skill 不可用时用 `references/humanizer-zh-fiction.md` 兜底）；同时读取本地 `references/humanizer-zh-fiction.md` 的小说边界和 `references/human-writing-fiction.md` 的“初稿后润色：保留有效部分再修改”补充边界。这是现有润色流程的默认步骤。
 - 读取同版 active 执行包、待润色初稿、写作报告、本书 style-guide/profile、人物与相关状态、技法包和红线。输入稿或报告版本不符时先报告缺口，不跳过初稿阶段生成另一套情节。
 - 先保护人物声音、有效留白、有意重复、慢场景、气氛递进、伏笔、因果铺垫和关键场景容量，再调整表达、节奏、视角细节、动词、指代和停顿。不得以通顺为由删除行动资格、知识来源、规则代价等前置条件。
 - 只改表达，不改变事件顺序、关键事件、人物关键动机、世界规则、技术结论、道具实态或伏笔回收窗口。硬约束内可改写细节和对白表达；需要新增一次信息交接或新事件才能成立的修复，列为结构性候选交主 agent。

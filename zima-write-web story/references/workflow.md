@@ -18,7 +18,7 @@
 
 ## 2. content-writer 初稿
 
-先读 [human-writing-fiction.md](human-writing-fiction.md) 的适用规则与“写前与初稿：正向生成”。在章纲授权内设计动作、对白和细节，每章写完即保存版本、写作报告和下一动作。
+先读 [expression-skills.md](expression-skills.md) 的分工与解析顺序，主用 `human-writing` 的虚构写作规则（外部不可用时用 [human-writing-fiction.md](human-writing-fiction.md)），并读本地 [human-writing-fiction.md](human-writing-fiction.md) 的"适用与优先级"和"写前与初稿：正向生成"。在章纲授权内设计动作、对白和细节，每章写完即保存版本、写作报告和下一动作。
 
 字数由情节容量决定。冲突、推理、动作、选择、代价和高潮要有读者能经历的过程，不能只交剧情摘要；短章须有余波、过桥、单点反转或换气等功能。章末服务规划与节奏，终章允许完整收束。
 
@@ -26,7 +26,7 @@
 
 ## 3. polisher 后置润色
 
-初稿存在后，读取小说表达模块的适用规则与“初稿后润色：保留有效部分再修改”、本书风格、写作报告和当前包。改表达、节奏、视角与不必要解释，保护关键事件、因果、动机、规则、必要过程和有意重复。
+初稿存在后，主用 `humanizer-zh`（外部不可用时用 [humanizer-zh-fiction.md](humanizer-zh-fiction.md)），读取主用项的编辑规则、[humanizer-zh-fiction.md](humanizer-zh-fiction.md) 的小说边界及 [human-writing-fiction.md](human-writing-fiction.md) 的"初稿后润色：保留有效部分再修改"补充边界，再读本书风格、写作报告和当前包。改表达、节奏、视角与不必要解释，保护关键事件、因果、动机、规则、必要过程和有意重复。
 
 不把任何词、句式或标点一刀切删除。POV 以本书配置为准，熟悉地点和允许的全知叙述可直接命名；限制视角中的未知信息才需相应获得依据。不能为了补认知链凭空新增未经规划允许的信息交接。
 
