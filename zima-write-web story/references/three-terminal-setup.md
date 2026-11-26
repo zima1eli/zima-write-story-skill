@@ -12,6 +12,8 @@ Codex、Claude Code、Cursor 共用本源 skill 的 [agent-contracts.md](agent-c
 - `current_entry_path`：本项目当前入口实际路径。
 - `execution_package_path`：当前入口指向的执行包实际路径。
 
+正文批次由主 agent 将已定文风模块的选用记录交给 writer 和 polisher。当前执行包可以直接载明或引用同一份记录，写清模块名、来源、适用范围和本章写法。知识库来源定位到实际模块页或小节，用户选定的自定义模块定位到本书确认记录。其他客户端读取不到原路径时，可交付带来源的相关写法摘记。独立润色、审查已有文本沿用原任务范围。
+
 模板中的 `references/...` 按 `skill_root` 解析，不按项目工作目录猜测。同名 skill 有多个安装副本时固定本次实际使用的一个根目录。writer/polisher 的表达参考从同一根目录读取；检查其文件存在与可读，不能只有口头声明"已使用"。
 
 writer 主用 `human-writing`、polisher 主用 `humanizer-zh`，这两个是外部安装项，按 [expression-skills.md](expression-skills.md) 的解析顺序定位实际路径并记录版本。三端运行时若能加载同名 skill，直接加载；否则使用本 skill 内的 [human-writing-fiction.md](human-writing-fiction.md) 与 [humanizer-zh-fiction.md](humanizer-zh-fiction.md) 兜底，并在阶段报告中注明"使用兜底，未加载外部 skill"。
