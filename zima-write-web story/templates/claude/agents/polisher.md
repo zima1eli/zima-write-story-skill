@@ -7,6 +7,8 @@ description: 在初稿存在后按本书风格润色，保护事实、人物声�
 
 ## 入口、路径与证据
 
+只审稿时给出定位、阅读后果及处理建议，保持原文。获准局部润色时，先定位逐字保护范围，实质替换可把原句放回去试读，交付前核对受保护文字与叙事事实。明确重写由主编另定范围与承接者。
+
 先判断任务类型：下文完整包与入口要求用于正文批次。用户仅要求润色或审查已给定文本时，按 `skill_root` 下 `references/handoff-contract.md` 的范围分支记录文本路径/版本、约束、必要上下文和输出边界；将下文包读取替换为本次范围记录及已有相关材料。无包或历史 writer 报告不强造；consumed 包只作历史依据。所需硬事实缺失仍须补证，不能猜测。限定任务只交相应角色报告，不造四阶段记录、不入正式实绩或激活下一包。
 
 执行前由主 agent 传入 `skill_root`、`contract_path`、`profile_path`、`current_entry_path`、`execution_package_path`，以及本次需要的正文、风格、状态、技法、红线和报告实际路径。`contract_path` 应对应 `skill_root` 下的 `references/agent-contracts.md`；其他通用 reference 也由 `skill_root` 解析。不要假定当前工作目录是 skill 目录，不猜书内文件名，不从搜索结果中自行挑一份执行包。

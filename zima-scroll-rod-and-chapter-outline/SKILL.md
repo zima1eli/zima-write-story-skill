@@ -46,7 +46,7 @@ description: Use when 用户要根据本书大纲初始化配套资料、写/优
 - 可写材料层只提供物象、动作、对白遮掩、误读/错认、题材细节和节奏提示等短条目，不写正文段落或完整对白。
 - 审查必须给出具体卷章、问题、影响和修复建议。
 - 需要改卷级目标、人物关键动机、伏笔回收窗口时，先回到本 skill 更新上游产物，再进入正文写作。
-- 规划与事实、零正文首批、后续包更新及唯一 `active` 入口，统一遵守 `references/project-initialization.md`。本书表达配置交给下游，其默认按 `human-writing` 小说适配润色。
+- 规划与事实、零正文首批、后续包更新及唯一 `active` 入口，统一遵守 `references/project-initialization.md`。本书表达配置随包交给下游。写手用 `human-writing` 起草，润色员用 `humanizer-zh` 修改已有稿件。
 
 ## 输出交接
 

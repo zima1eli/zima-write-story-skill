@@ -1,6 +1,6 @@
 ---
 name: zima-write-web-story
-description: Use when 用户要按小说卷纲/章纲批量写正文、继续写章节、润色校对章节批次、做跨章/跨卷终审、检查红线/术语认知/角色认知链，或迁移小说正文写作流水线。不要用于新建卷纲、章纲或章节规划。
+description: Use when 用户要按卷章纲新写或续写中文小说、审读或局部润色现有片段、按约束重写正文、做跨章跨卷终审、检查红线与角色认知，或迁移小说正文流水线。不要用于新建卷纲、章纲或章节规划。
 ---
 
 # zima-write-web-story
@@ -13,7 +13,7 @@ description: Use when 用户要按小说卷纲/章纲批量写正文、继续写
 
 ## 开工与恢复
 
-先区分任务：以下开工步骤与四阶段闭环针对新写/续写正文批次。用户只要求润色或审查已有文本时，按 [交接契约的范围分支](references/handoff-contract.md) 建立本次文本、版本、约束和输出范围记录；不为此强造 active 包，也不冒称完成整批写作。已有项目材料仍按需要核对。
+先确认作者要新写或续写、只收审稿意见、局部润色，还是明确授权重写。以下开工步骤与四阶段闭环适用于新写或续写正文批次。处理已有文本时，按[交接契约的范围分支](references/handoff-contract.md)确定版本、权限与保护范围。
 
 1. 读项目规则、当前入口、本书配置和逐章进度，确认用户总范围、已接受正文与下一动作。
 2. **首次为本书写正文时先定文风。** 读全书大纲中交代基调、人物和叙述视角的段落，对照本批章纲与分章执行卡（施工卡）。已有正文再看已接受章节的声音。核对本书已选模块；缺少可用记录时，到 `D:\knowledge base\zima-fiction` 按[文风模块选用](references/wiki-routing.md#文风模块选用)查读适合的模块原页。无库、库不可读或找不到合适模块，且用户尚未选定时，先用本章场景和用户讨论文风，选定后再开写。
@@ -44,6 +44,7 @@ description: Use when 用户要按小说卷纲/章纲批量写正文、继续写
 | 正文批次的顺序和落盘 | [workflow.md](references/workflow.md) |
 | writer / polisher / checker / 主审职责 | [agent-contracts.md](references/agent-contracts.md) |
 | 验收与结束判断 | [quality-gates.md](references/quality-gates.md) |
+| 相邻几场读来雷同、揭晓是否提前、何时请人盲读 | [场景审读与盲读](references/scene-review.md) |
 | 初稿表达与后置润色 | [expression-skills.md](references/expression-skills.md)、[human-writing-fiction.md](references/human-writing-fiction.md)、[humanizer-zh-fiction.md](references/humanizer-zh-fiction.md) |
 | 首次选文风模块、换文风或定向补技法 | [wiki-routing.md](references/wiki-routing.md) |
 | 三端 agent/rule 与契约路径 | [three-terminal-setup.md](references/three-terminal-setup.md) |

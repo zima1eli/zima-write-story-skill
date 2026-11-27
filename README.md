@@ -45,8 +45,9 @@
 - 原版行为观察：[baseline-observations.md](verification/baseline-observations.md)。
 - 本轮改动、已执行检查和验证边界：[验证报告](verification/REPORT.md)。
 - 工作分支已合并到 `main`；合并后的文件、备份及仓库描述核对见[合并验证报告](verification/main-merge-report.md)。
-- 两套评测文件共 48 个案例定义。固定小型小说输入放在各自 `evals/fixtures/`。2026-11-16 实际运行的表达分工与通用边界用例见[同步验证记录](verification/2026-11-16-skill-sync.md)。
+- 两套评测文件共 56 个案例定义。固定小型小说输入放在各自 `evals/fixtures/`。2026-11-16 实际运行的表达分工与通用边界用例见[同步验证记录](verification/2026-11-16-skill-sync.md)。
 - 首次选文风、有库与无库、同书续章和局部润色的实际表现见[2026-11-26 定向试跑](verification/2026-11-26-prose-style.md)。
+- 关键章盲读、跨场重复、原句还原和两种叙述声音的同题对照见[四组试验与采纳结论](verification/sepia-20261127/results.md)。
 - 源文件检查：Python 3.11+ 运行 `python -X utf8 scripts/verify_repository.py --self-test`。该检查验证格式、相对资源、fixture 和模板清单，不验证文学效果或客户端实际加载。
 
 三端使用说明见各 skill 的 `references/three-terminal-setup.md`。核对项目安装版本时，比对项目技能入口及运行时角色文件与发布提交。客户端是否已加载该版本，可在新会话中按相应入口试跑核验。

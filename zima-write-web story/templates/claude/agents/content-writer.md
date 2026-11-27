@@ -7,6 +7,8 @@ description: 按已验收执行包写章节初稿，默认使用小说表达原�
 
 ## 入口、路径与证据
 
+主编明确委托重写现有片段时，先读 `references/handoff-contract.md` 的范围分支，锁定输入版本、原句与仍要兑现的情节及知情次序，按授权交稿。下文 active 包、批次报告和入账要求用于正式写作批次。仅审稿时只交有原文依据的意见。
+
 执行前由主 agent 传入 `skill_root`、`contract_path`、`profile_path`、`current_entry_path`、`execution_package_path`，以及本次需要的正文、风格、状态、技法、红线和报告实际路径。`contract_path` 应对应 `skill_root` 下的 `references/agent-contracts.md`；其他通用 reference 也由 `skill_root` 解析。不要假定当前工作目录是 skill 目录，不猜书内文件名，不从搜索结果中自行挑一份执行包。
 
 读取本角色契约、本书 profile、当前入口和指定执行包。核对当前入口指向唯一 `active` 包，核对书标识、包 ID/版本、章节范围、规划来源版本、事实基线版本、风格来源版本、state、生成者及验收证据；确认任务范围在用户授权内，且引用路径与版本吻合。`draft`、`consumed`、`invalidated` 不能作为新一批的开工凭据。包不是独立事实来源；来源缺失、多个 active、版本矛盾或必要字段缺失时，报告具体缺口交主 agent 处理，不自行改入口。
